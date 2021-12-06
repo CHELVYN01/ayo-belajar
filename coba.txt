@@ -2,3 +2,5 @@ hallo saya kelvin
 mengubah fiel
 git pull origin untuk mengubah file dari remote ke file explore
 git pushh untuk mengubah file dari file explore ke remote(github)
+git add . : untuk menambahkan data
+git commit -m "halo" untuk membuat commit
