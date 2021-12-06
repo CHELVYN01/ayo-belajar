@@ -7,3 +7,4 @@ git commit -m "halo" untuk membuat commit
 harus melakukan git pull terlebih dahulu untuk menghindari marge conflick
 git remote untuk melihat remote yang kita gunakan
 gitkraker
+sukse!!!!!
