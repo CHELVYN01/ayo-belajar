@@ -9,5 +9,9 @@ git remote untuk melihat remote yang kita gunakan
 gitkraker
 git branch befungsi untuk menambahkan branch baru (seperti master)
 contoh git branch <nama_anda> ini berfungsi untuk menambahkan data branch 
+git marge berfungsi untuk menggabungkan data yang berbeda branch ke dalam satu branch
+jenis marge 
+- Fast Forward 
+- three-away Merge
 
 sukse!!!!!
