@@ -7,4 +7,7 @@ git commit -m "halo" untuk membuat commit
 harus melakukan git pull terlebih dahulu untuk menghindari marge conflick
 git remote untuk melihat remote yang kita gunakan
 gitkraker
+git branch befungsi untuk menambahkan branch baru (seperti master)
+contoh git branch <nama_anda> ini berfungsi untuk menambahkan data branch 
+
 sukse!!!!!
