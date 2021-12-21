@@ -5,3 +5,7 @@ yang sama berisikan kumpulan informasi yang di sediakan secara perorangan, kelom
 - manfaat web programing 
 1. mengembangkan cara berfikit dengan sistematis
 2. membuat solusi dari suatu masalah dengan menggunakan teknologi
+
+clint dan server 
+- Back End
+- Front End
