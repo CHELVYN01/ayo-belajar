@@ -1,0 +1,7 @@
+- apa itu web 
+web adalah sebuah halaman web yang saling berhubungan yang umumnya berada pada server 
+yang sama berisikan kumpulan informasi yang di sediakan secara perorangan, kelompok atau organisasi
+
+- manfaat web programing 
+1. mengembangkan cara berfikit dengan sistematis
+2. membuat solusi dari suatu masalah dengan menggunakan teknologi
