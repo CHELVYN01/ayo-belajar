@@ -1,0 +1,28 @@
+- JAVA  
+  untuk membuat bilangan ganjil atau genap menggunakan modulu 
+  contoh
+  
+  // contoh ganap
+  int genap;
+  
+  if ( genap % 2 == 0){
+    System.out.println("genap);
+    }
+ else {
+    Systemn.out.println("ganjil");
+    }
+    
+  // contoh ganjil
+      int ganjil
+     if ( ganjil % 2 == 1){
+    System.out.println("genjil);
+    }
+ else {
+    Systemn.out.println("ganap");
+    }
+  
+  
+  
+ 
+  
+  
