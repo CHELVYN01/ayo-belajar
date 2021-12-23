@@ -1,5 +1,7 @@
 - JAVA  
-  untuk membuat bilangan ganjil atau genap menggunakan modulu 
+
+
+  * untuk membuat bilangan ganjil atau genap menggunakan modulu 
   contoh
   
   // contoh ganap
@@ -22,7 +24,19 @@
     }
   
   
+  * contoh jika menginput intger duluan dan setelah itu menginput String 
   
- 
-  
+  Scanner sc = new Scanner(System.in);
+       String o ;
+        int i = sc.nextInt();
+        double e = sc.nextDouble();
+        sc.nextLine();// untuk pmbatas untuk Int dan String line
+         o = sc.nextLine();
+    
+       
+        
+         System.out.println("String: "+o);
+          System.out.println("Double: "+e);
+           System.out.println("Int: "+i);
+        
   
