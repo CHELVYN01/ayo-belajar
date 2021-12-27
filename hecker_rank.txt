@@ -64,6 +64,61 @@ python         050
 link : https://www.youtube.com/watch?v=HcgWfRhQQAk
 link : https://www.youtube.com/watch?v=PsFAiSEDOjA
 
+//cara menemapilkan contoh perkalian matematika yang sederhana 
+kode ini juga bisa di gunakan untuk operator lain nya dan bisa di buat smpe 1 jt pengurutan dalam perhitungan operator
+ public static void main(String[] args) throws IOException {
+        System.out.print("masukan N = "); 
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
+        int N = Integer.parseInt(bufferedReader.readLine().trim());
+
+        bufferedReader.close();
+       //Scanner in = new Scanner(System.in);
+       
+
+        for(int i = 1; i <= 10; i++){
+
+            System.out.printf("%d x %d = %d%n", N, i, N*i);
+        }
+        
+    }
+   
+   di sini kita menggunakan bufferRede untun menginput angka yang akan kita buat perkalian.
+  // hasil outoutnya 
+  masukan N = 2
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+BUILD SUCCESSFUL (total time: 2 seconds)
+
+// program ini membuat matematika aritmatika 
+menggunakan loping 
+// rumurs yang digunakan adalah c += Math.pow(2,j)*b;
+// Math Pow itu berfungsi untuk pemangkatan (2^2) 2 4 16 32
+  public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            int c = a;
+            for (int j = 0; j < n;j++){
+                c += Math.pow(2, j)*b;
+                System.out.printf("%s ",c);
+               
+            }
+             System.out.println();
+        }
+        in.close();
+     }
+    
         
   
