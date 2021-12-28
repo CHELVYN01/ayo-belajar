@@ -147,5 +147,54 @@ menggunakan loping
     3 Read me until end-of-file.
     
     
+    
+    // cara untuk membuat output bilangan postive saja pada panjang lebar
+    // jika salah satu dari panjang dan lebar terdapat nilai negative maka pesan akan menulis 
+    // "Breadth and height must be positive"
+    // program ini menggunkan static 
+    
+     static Scanner sc = new Scanner(System.in);
+        static boolean kel = true;
+        static int c = sc.nextInt();
+        static int k = sc.nextInt();
+        
+        static{
+        try{
+            if (c <= 0|| k<=0){
+                kel = false;
+                throw new Exception("Breadth and height must be positive");
+            }
+        }
+        catch (Exception x){
+            System.out.println(x);
+        }
+        }
+     public static void main(String[] args) {
+         if (kel){
+             int vin = c * k;
+             System.out.println(vin);
+         }
+     }
+     
+     // dan hasil input dan outputnya adalah 
+     
+     // satu
+     //input 
+     1
+     3
+     
+    // output 
+     3
+     
+     //dua
+     // input
+     -1
+     2
+     
+     //output
+     java.lang.Exception: Breadth and height must be positive
+     
+     
+   
         
   
