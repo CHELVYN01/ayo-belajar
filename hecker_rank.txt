@@ -1,6 +1,5 @@
 - JAVA  
 
-
   * untuk membuat bilangan ganjil atau genap menggunakan modulu 
   contoh
   
@@ -24,7 +23,11 @@
     }
   
   
+  
+  
   * contoh jika menginput intger duluan dan setelah itu menginput String 
+  
+  
   
   Scanner sc = new Scanner(System.in);
        String o ;
@@ -64,6 +67,9 @@ python         050
 link : https://www.youtube.com/watch?v=HcgWfRhQQAk
 link : https://www.youtube.com/watch?v=PsFAiSEDOjA
 
+
+
+
 //cara menemapilkan contoh perkalian matematika yang sederhana 
 kode ini juga bisa di gunakan untuk operator lain nya dan bisa di buat smpe 1 jt pengurutan dalam perhitungan operator
  public static void main(String[] args) throws IOException {
@@ -98,6 +104,8 @@ kode ini juga bisa di gunakan untuk operator lain nya dan bisa di buat smpe 1 jt
 2 x 10 = 20
 BUILD SUCCESSFUL (total time: 2 seconds)
 
+
+
 // program ini membuat matematika aritmatika 
 menggunakan loping 
 // rumurs yang digunakan adalah c += Math.pow(2,j)*b;
@@ -119,6 +127,25 @@ menggunakan loping
         }
         in.close();
      }
+    
+    
+    
+    // java End-of-file 
+    //cara menggunakaqn hanya dua syntanx yang akan keluar bisa menginput data dan manampilkan data
+    
+     public static void main(String[] args) {
+       Scanner sc = new Scanner(System.in);
+       
+       for (int i = 1; sc.hasNext()== true; i++){
+           System.out.println(i+" "+ sc.nextLine());
+       }
+    }
+    
+    // hasil dari kode diatas adalah 
+    1 Hello world
+    2 I am a file
+    3 Read me until end-of-file.
+    
     
         
   
