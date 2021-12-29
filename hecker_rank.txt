@@ -195,6 +195,32 @@ menggunakan loping
      java.lang.Exception: Breadth and height must be positive
      
      
+     // java int to String 
+     //menggunakan Integer.toString()
+
+    // input
+     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int s = sc.nextInt();
+        
+        String b = Integer.toString(s);
+        
+        b = "Good job";
+        
+        System.out.println(b);
+        
+    }
+    
+    // hasil input dan output adalah 
+    
+    // input
+    100
+    
+    // output
+    Good job
+    
+    
    
         
   
