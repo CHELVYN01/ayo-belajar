@@ -9,3 +9,7 @@ yang sama berisikan kumpulan informasi yang di sediakan secara perorangan, kelom
 clint dan server 
 - Back End
 - Front End
+
+
+pada penghapusan git kita menggunakan fm -fr .git 
+semoga bermanafaat 
