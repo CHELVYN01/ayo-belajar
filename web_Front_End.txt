@@ -11,5 +11,5 @@ clint dan server
 - Front End
 
 
-pada penghapusan git kita menggunakan fm -fr .git 
+pada penghapusan git kita menggunakan rm -fr .git 
 semoga bermanafaat 
