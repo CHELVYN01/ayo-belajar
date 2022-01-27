@@ -318,3 +318,21 @@ menggunakan loping
             testCases--;
         }
     }
+    
+    
+    
+    // menetukan bilangan primer 
+    disini kita menggunak big integer dan class isProbablePrime untuk membandingkan nilai dari angka tersebut 
+    
+    public static void main(String[] args) throws IOException {
+        Scanner sc = new Scanner(System.in);
+        
+        BigInteger n = sc.nextBigInteger();
+        sc.close();
+        System.out.println(n.isProbablePrime(1)?"prime" : "not prime");
+        
+        
+        // input 
+        13 
+        // output nya
+        prime
