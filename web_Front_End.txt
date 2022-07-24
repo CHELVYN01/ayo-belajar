@@ -13,3 +13,8 @@ clint dan server
 
 pada penghapusan git kita menggunakan rm -fr .git 
 semoga bermanafaat 
+
+
+-Array terdapat dua jenis yaituu ]
+  1. array assosiatif
+  2. array numerik
