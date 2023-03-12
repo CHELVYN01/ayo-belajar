@@ -355,3 +355,46 @@ cv.waitKey(0)
 cv.destroyAllWindows()
 
 dengan menggunakan metode gambar asli dengan memasukan metode (R + G + B)/ 2
+
+
+
+// memvalidasi ip addreas menggunakan java regex
+
+import java.io.*;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class Solution {
+    // jika ip adalah nol atau huruf maka false
+    public static boolean MyRegex (String ip){
+        if(ip == null || ip == "abcdefghijklmnopqrstuvwxyz"){
+            return false;
+        }
+        
+        //membuat angka 0 - 255
+        String regex = "(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])";
+        
+        //terdapat 4 regex yang true jika 5 atau lebih maka false
+        String ipRegex = regex + "\\."+
+                         regex + "\\."+
+                         regex + "\\."+
+                         regex;
+        Pattern p = Pattern.compile(ipRegex);
+        return p.matcher(ip).matches();
+    }
+    public static void main(String[] args) {
+        
+        // MyRegex input = new MyRegex();
+        
+        Scanner sc = new Scanner(System.in);
+        //mengulang setiap sesi
+        while(sc.hasNext()){
+            
+        String input = sc.nextLine();
+        System.out.println(Solution.MyRegex(input));
+        }
+       
+    }
+}
+
