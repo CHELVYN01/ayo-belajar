@@ -14,4 +14,9 @@ jenis marge
 - Fast Forward 
 - three-away Merge
 
+
+git branch -r untuk melihat branch remote github 
+git branch (newbranch) membuat branch baru 
+
+
 sukse!!!!!
